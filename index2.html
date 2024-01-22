@@ -1,0 +1,72 @@
+<div class="stepPlan" id="stepPlan">
+    <h1>Select your plan</h1>
+    <p class="descrition">
+        You have the option of monthly or yearly billing.
+    </p>
+    <div class="planMonth" id="planMonth">
+
+        <button class="planButton" id="rayArcade" onclick="getPrice1()">
+            <img src="./assets/images/icon-arcade.svg" alt="">
+            <p>Arcade</p>
+            <span class="priceMonth" id="priceMonth">$9/mo</span>
+        </button>
+
+        <button class="planButton" id="rayArcade" onclick="getPrice1()">
+            <img src="./assets/images/icon-advanced.svg" alt="">
+            <p>Advanced</p>
+            <span class="priceMonth" id="priceMonth">$12/mo</span>
+        </button>
+
+        <button class="planButton" id="rayArcade" onclick="getPrice1()">
+            <img src="./assets/images/icon-pro.svg" alt="">
+            <p>Pro</p>
+            <span class="priceMonth" id="priceMonth">$15/mo</span>
+        </button>
+    </div>
+
+    <div class="planMonth" id="planYear">
+        <button class="planButton" id="anniArcade" onclick="getprice4()">
+
+            <img src="./assets/images/icon-arcade.svg" alt="">
+
+            <p>Arcade</p>
+            <span class="priceYear">$90/yr</span>
+            <label class="free" for="">2 months free</label>
+        </button>
+
+        <button class="planButton" id="anniAdvanced" onclick="getprice5()">
+
+            <img src="./assets/images/icon-advanced.svg" alt="">
+
+            <p>Advanced</p>
+            <span class="priceYear">$120/yr</span>
+            <label class="free" for="">2 months free</label>
+        </button>
+
+        <button class="planButton" id="anniPro" onclick="getprice6()">
+
+            <img src="./assets/images/icon-pro.svg" alt="">
+
+            <p>Pro</p>
+            <span class="priceYear">$150/yr</span>
+            <label class="free" for="">2 months free</label>
+        </button>
+
+    </div>
+
+    <div class="switch">
+        <p class="monthly">Monthly</p>
+        <label for="" class="check">
+            <input type="checkbox" name="" id="switch" id="checkbox" onclick="reset()">
+            <span></span>
+        </label>
+        <p class="yearly">Yearly</p>
+    </div>
+
+    <div class="buttonContainerStepTwo">
+        <button onclick="backStepOne()" class="goBack">Go Back</button>
+        <button onclick="goStepThree()" class="nextStep">
+            Next Step
+        </button>
+    </div>
+</div>
