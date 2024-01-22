@@ -62,32 +62,28 @@
             Please provide your name, email address, and phone number.
           </p>
 
-          <div class="flexError">
+          <div class="details"><div class="flexError">
             <p>Name</p>
             <span id="errorName"></span>
           </div>
+          
+          <input type="text" name="" id="inforName" placeholder="e.g. Stephen King"></div>
 
-          <input type="text" name=""
-          id="inforName"
-          placeholder="e.g. Stephen King">
-
-          <div class="flexError">
-            <p>Email Address</p>
-            <span id="errorName"></span>
+          <div class="details">
+            <div class="flexError">
+              <p>Email Address</p>
+              <span id="errorMail"></span>
+            </div>
+            
+            <input type="email" name="" id="infoMail" placeholder="e.g. stephenking@lorem.com">
           </div>
 
-          <input type="email" name=""
-          id="infoMail" placeholder="e.g. stephenking@lorem.com">
-
-          <div class="flexError">
+          <div class="details"><div class="flexError">
             <p>Phone Number</p>
             <span id="errorNum"></span>
           </div>
           
-          <input type=""
-          name=""
-          id="infoNumber"
-          placeholder="e.g. +1 234 567 890">
+          <input type="" name="" id="infoNumber" placeholder="e.g. +1 234 567 890"></div>
 
           <div class="buttonContainerStepOne">
             <button onclick="goStepTwo()" class="nextStep">Next Step</button>
@@ -169,7 +165,7 @@
         </div>
 
         <div class="buttonContainerStepTwo">
-          <button onclick="backStepOne()" class="goBacck">Go Back</button>
+          <button onclick="backStepOne()" class="goBack">Go Back</button>
           <button onclick="goStepThree()" class="nextStep">
             Next Step
           </button>
@@ -332,14 +328,15 @@
         <p>Thanks for confirming your subscription! We hope you have fun
         using our platform. If you ever need support, please feel free
         to email us at support@loremgaming.com.</p>
-      </div>
+      </div> 
     </div>
   </div> 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">RayXchange</a>.
   </div>
+  <!-- <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">RayXchange</a>.
+    </div> -->
+  
   <script src="./script.js"></script>
 </body>
 </html>
