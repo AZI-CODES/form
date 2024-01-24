@@ -103,7 +103,7 @@ function goToStepThankYou() {
   }
 }
 
-/*fonction pour checker si le checkbox est checké pour display plan<year */
+/*checkbox */
 
 checkBox = document
   .getElementById("switch")
@@ -120,13 +120,13 @@ checkBox = document
       addonMois.style.display = "flex";
     }
   });
-/*fonction pour changer couler des bouton PLAN et choper les infos */
+/*function to change the PLAN button and get the information */
 checkBox = document
   .getElementById("moisArcade")
   .addEventListener("click", event => {
     moisArcade.style.backgroundColor = "hsl(217, 100%, 97%)";
     moisArcade.style.border = " solid 1px hsl(213, 96%, 18%)";
-    /*res les autres background et borders */
+    /*res the other backgrounds and borders */
     moisAdvenced.style.backgroundColor = "white";
     moisAdvenced.style.border = " solid 1px hsl(229, 24%, 87%)";
     moisPro.style.backgroundColor = "white";
@@ -137,7 +137,7 @@ checkBox = document
     anneeAdvenced.style.border = " solid 1px hsl(229, 24%, 87%)";
     anneePro.style.backgroundColor = "white";
     anneePro.style.border = " solid 1px hsl(229, 24%, 87%)";
-    /* la suite */
+    /* the following */
     document.getElementById("modeResume").innerHTML = "Arcade (monthly)";
     document.getElementById("priceResume").innerHTML = "9$/mo";
     document.getElementById("modeTotal").innerHTML = "Total (per month)";
@@ -147,7 +147,7 @@ checkBox = document
   .addEventListener("click", event => {
     moisAdvenced.style.backgroundColor = "hsl(217, 100%, 97%)";
     moisAdvenced.style.border = " solid 1px hsl(213, 96%, 18%)";
-    /*res les autres background et borders */
+    /*res the other backgrounds and borders */
     moisArcade.style.backgroundColor = "white";
     moisArcade.style.border = " solid 1px hsl(229, 24%, 87%)";
     moisPro.style.backgroundColor = "white";
@@ -158,7 +158,7 @@ checkBox = document
     anneeAdvenced.style.border = " solid 1px hsl(229, 24%, 87%)";
     anneePro.style.backgroundColor = "white";
     anneePro.style.border = " solid 1px hsl(229, 24%, 87%)";
-    /* la suite */
+    /* the following */
     document.getElementById("modeResume").innerHTML = "Advenced (monthly)";
     document.getElementById("priceResume").innerHTML = "12$/mo";
     document.getElementById("modeTotal").innerHTML = "Total (per month)";
@@ -168,7 +168,7 @@ checkBox = document
   .addEventListener("click", event => {
     moisPro.style.backgroundColor = "hsl(217, 100%, 97%)";
     moisPro.style.border = " solid 1px hsl(213, 96%, 18%)";
-    /*res les autres background et borders */
+    /*res the other backgrounds and borders*/
     moisAdvenced.style.backgroundColor = "white";
     moisAdvenced.style.border = " solid 1px hsl(229, 24%, 87%)";
     moisArcade.style.backgroundColor = "white";
@@ -179,7 +179,7 @@ checkBox = document
     anneeAdvenced.style.border = " solid 1px hsl(229, 24%, 87%)";
     anneePro.style.backgroundColor = "white";
     anneePro.style.border = " solid 1px hsl(229, 24%, 87%)";
-    /* la suite */
+    /* the following */
     document.getElementById("modeResume").innerHTML = "Pro (monthly)";
     document.getElementById("priceResume").innerHTML = "15$/mo";
     document.getElementById("modeTotal").innerHTML = "Total (per month)";
@@ -189,7 +189,7 @@ checkBox = document
   .addEventListener("click", event => {
     anneeArcade.style.backgroundColor = "hsl(217, 100%, 97%)";
     anneeArcade.style.border = " solid 1px hsl(213, 96%, 18%)";
-    /*res les autres background et borders */
+    /*res the other backgrounds and borders */
     moisArcade.style.backgroundColor = "white";
     moisArcade.style.border = " solid 1px hsl(229, 24%, 87%)";
     moisPro.style.backgroundColor = "white";
@@ -200,7 +200,7 @@ checkBox = document
     anneeAdvenced.style.border = " solid 1px hsl(229, 24%, 87%)";
     anneePro.style.backgroundColor = "white";
     anneePro.style.border = " solid 1px hsl(229, 24%, 87%)";
-    /* la suite */
+    /* the following */
     document.getElementById("modeResume").innerHTML = "Arcade (yearly)";
     document.getElementById("priceResume").innerHTML = "90$/yr";
     document.getElementById("modeTotal").innerHTML = "Total (per year)";
@@ -210,7 +210,7 @@ checkBox = document
   .addEventListener("click", event => {
     anneeAdvenced.style.backgroundColor = "hsl(217, 100%, 97%)";
     anneeAdvenced.style.border = " solid 1px hsl(213, 96%, 18%)";
-    /*res les autres background et borders */
+    /*res the other backgrounds and borders */
     moisAdvenced.style.backgroundColor = "white";
     moisAdvenced.style.border = " solid 1px hsl(229, 24%, 87%)";
     moisPro.style.backgroundColor = "white";
@@ -221,7 +221,7 @@ checkBox = document
     anneeArcade.style.border = " solid 1px hsl(229, 24%, 87%)";
     anneePro.style.backgroundColor = "white";
     anneePro.style.border = " solid 1px hsl(229, 24%, 87%)";
-    /* la suite */
+    /* the following */
     document.getElementById("modeResume").innerHTML = "Advenced (yearly)";
     document.getElementById("priceResume").innerHTML = "12O$/yr";
     document.getElementById("modeTotal").innerHTML = "Total (per year)";
@@ -231,7 +231,7 @@ checkBox = document
   .addEventListener("click", event => {
     anneePro.style.backgroundColor = "hsl(217, 100%, 97%)";
     anneePro.style.border = " solid 1px hsl(213, 96%, 18%)";
-    /*res les autres background et borders */
+    /*res the other backgrounds and borders */
     moisArcade.style.backgroundColor = "white";
     moisArcade.style.border = " solid 1px hsl(229, 24%, 87%)";
     moisPro.style.backgroundColor = "white";
@@ -242,13 +242,13 @@ checkBox = document
     anneeArcade.style.border = " solid 1px hsl(229, 24%, 87%)";
     anneeAdvenced.style.backgroundColor = "white";
     anneeAdvenced.style.border = " solid 1px hsl(229, 24%, 87%)";
-    /* la suite */
+    /* the following */
     document.getElementById("modeResume").innerHTML = "Pro (yearly)";
     document.getElementById("priceResume").innerHTML = "150$/yr";
     document.getElementById("modeTotal").innerHTML = "Total (per year)";
   });
 
-/*fonction pour chopper les infos des ADD ONS */
+/*function to grab information from ADD ONS */
 
 checkBox = document
   .getElementById("onlineMois")
@@ -339,7 +339,7 @@ function reset() {
   anneePro.style.border = " solid 1px hsl(229, 24%, 87%)";
 }
 
-/* FONCTION POUR FAIRE LE TOTAL*/
+/* FUNCTION TO TOTAL*/
 
 const planPrice = "0";
 console.log(planPrice);
@@ -376,7 +376,7 @@ function getPrice6() {
   document.getElementById("totalPrice").innerHTML = planPrice;
 }
 
-/* check des inputs INFOS */
+/* check the input INFO */
 
 function checkName() {
   let myNameInput = document.getElementById("infoName");
