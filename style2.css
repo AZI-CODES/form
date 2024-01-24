@@ -23,7 +23,7 @@
 
   .stepContainer {
     background-color: rgb(255, 255, 255);
-    width: 280px;
+    width: 265px;
     height: 500px;
     position: absolute;
     margin-top: 90px;
@@ -32,6 +32,7 @@
     margin-bottom: auto;
     border-radius: 10px;
     padding: 20px;
+    padding-right: 30px;
   }
   .buttonContainerStepOne {
     position: relative;
